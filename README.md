@@ -22,7 +22,7 @@ MRR@25 on held-out structures that never appear in training. "Random" = expected
 | ID | Date | Model | Held-out set A | Random A | Held-out set B | Random B | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | E001 | 2026-10-11 | Transformer v0 (small, CPU smoke test) | 0.393 | 0.447 | 0.331 | 0.336 | Pipeline check only |
-| E002 | 2026-10-11 | Transformer v1 (full data, GPU), 7% of training | 0.442 | 0.447 | 0.312 | 0.299 | Training in progress |
+| E002 | 2026-10-11 | Transformer v1 (full data, GPU, 2.8 h) | **0.690** | 0.447 | **0.676** | 0.299 | Done |
 
 ## Timeline
 
