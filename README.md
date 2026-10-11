@@ -12,6 +12,7 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | Date | Submission | Public LB (MRR@25) |
 | :--- | :--- | :--- |
 | 2026-10-05 | Pipeline v1 | 0.130 |
+| 2026-10-11 | Transformer v1 | 0.199 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
 
@@ -23,6 +24,7 @@ MRR@25 on held-out structures that never appear in training. "Random" = expected
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | E001 | 2026-10-11 | Transformer v0 (small, CPU smoke test) | 0.393 | 0.447 | 0.331 | 0.336 | Pipeline check only |
 | E002 | 2026-10-11 | Transformer v1 (full data, GPU, 2.8 h) | **0.690** | 0.447 | **0.676** | 0.299 | Done |
+| E003 | 2026-10-11 | Transformer v2 (full data, GPU, 2.8 h; harder held-out sets) | **0.798** | 0.447 | **0.825** | 0.178 | Done |
 
 ## Timeline
 
