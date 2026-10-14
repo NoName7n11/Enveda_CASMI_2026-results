@@ -17,6 +17,7 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | 2026-10-11 | Transformer v3 | 0.239 |
 | 2026-10-12 | Transformer v4 | 0.267 |
 | 2026-10-13 | Transformer v5 (ensemble) | 0.279 |
+| 2026-10-13 | Transformer v6 (larger ensemble) | 0.278 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
 
