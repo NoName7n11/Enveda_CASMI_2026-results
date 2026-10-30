@@ -18,6 +18,19 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | 2026-10-12 | Transformer v4 | 0.267 |
 | 2026-10-13 | Transformer v5 (ensemble) | 0.279 |
 | 2026-10-13 | Transformer v6 (larger ensemble) | 0.278 |
+| 2026-10-17 | System v2 #1 | 0.242 |
+| 2026-10-18 | System v2 #2 | 0.280 |
+| 2026-10-19 | System v2 #3 | 0.254 |
+| 2026-10-20 | System v2 #4 | 0.285 |
+| 2026-10-20 | System v2 #5 | 0.268 |
+| 2026-10-21 | System v2 #6 | 0.284 |
+| 2026-10-21 | System v2 #7 | 0.316 |
+| 2026-10-21 | System v2 #8 | **0.329** |
+| 2026-10-21 | System v2 #9 | 0.308 |
+| 2026-10-21 | System v2 #10 | 0.324 |
+| 2026-10-22 | System v2 #11 | 0.237 |
+| 2026-10-30 | System v2 #12 (retrained models) | **0.330** |
+| 2026-10-31 | System v2 #13 (diagnostic probe) | 0.307 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
 
@@ -30,10 +43,13 @@ MRR@25 on held-out structures that never appear in training. "Random" = expected
 | E001 | 2026-10-11 | Transformer v0 (small, CPU smoke test) | 0.393 | 0.447 | 0.331 | 0.336 | Pipeline check only |
 | E002 | 2026-10-11 | Transformer v1 (full data, GPU, 2.8 h) | **0.690** | 0.447 | **0.676** | 0.299 | Done |
 | E003 | 2026-10-11 | Transformer v2 (full data, GPU, 2.8 h; harder held-out sets) | **0.798** | 0.447 | **0.825** | 0.178 | Done |
+| E006 | 2026-10-29 | Transformer v2, longer training (+4 epochs) | **0.816** | 0.447 | **0.848** | 0.178 | Done |
 
 ## Timeline
 
 - **2026-09-14** Competition start
 - **2026-10-05** First leaderboard submission (0.130)
 - **2026-10-11** Transformer workstream started
+- **2026-10-17** Own end-to-end system (v2): first submission
+- **2026-10-30** Best public LB so far: 0.330
 - **2026-12-14** Final submission deadline → code and write-ups published here
