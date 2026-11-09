@@ -31,8 +31,14 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | 2026-10-22 | System v2 #11 | 0.237 |
 | 2026-10-30 | System v2 #12 (retrained models) | **0.330** |
 | 2026-10-31 | System v2 #13 (diagnostic probe) | 0.307 |
+| 2026-10-31 | System v2 #14 | 0.335 |
+| 2026-11-01 | Public baseline reproduction (track B, #1) | 0.478 |
+| 2026-11-01 | Public baseline + rerank layer (track B, #2) | 0.476 |
+| 2026-11-02 | Public baseline + joint cross-encoder layer (track B, #3) | 0.470 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
+
+Two parallel tracks since 2026-11-02: System v2 (own original pipeline, kept reproducible) and a public-baseline track (being audited and rebuilt for eligibility — see note below). Final submission choice is not locked.
 
 ## Offline validation
 
@@ -51,5 +57,6 @@ MRR@25 on held-out structures that never appear in training. "Random" = expected
 - **2026-10-05** First leaderboard submission (0.130)
 - **2026-10-11** Transformer workstream started
 - **2026-10-17** Own end-to-end system (v2): first submission
-- **2026-10-30** Best public LB so far: 0.330
+- **2026-10-30** Best public LB, own system: 0.330 (later 0.335 on 2026-10-31)
+- **2026-11-01** Started a second track: reproducing and auditing a strong public baseline pipeline for competition-eligibility compliance (host requires original training code for every model weight used)
 - **2026-12-14** Final submission deadline → code and write-ups published here
