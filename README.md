@@ -35,6 +35,8 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | 2026-11-01 | Public baseline reproduction (track B, #1) | 0.478 |
 | 2026-11-01 | Public baseline + rerank layer (track B, #2) | 0.476 |
 | 2026-11-02 | Public baseline + joint cross-encoder layer (track B, #3) | 0.470 |
+| 2026-11-09 | Public baseline, compliance check C4a (own ranker) | 0.431 |
+| 2026-11-09 | Public baseline, compliance check C4b (own ranker + own fingerprint model) | 0.429 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
 
