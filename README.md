@@ -41,6 +41,7 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | 2026-11-10 | Public baseline, compliance check C4d (own fingerprint model only) | 0.448 |
 | 2026-11-10 | Public baseline + wider structure generation (C8) | 0.459 |
 | 2026-11-11 | Public SOTA notebook, verbatim fork (S001) | 0.487 |
+| 2026-11-11 | Public SOTA pipeline, main engine replaced by own models (G1) | 0.417 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
 
