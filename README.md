@@ -45,6 +45,7 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | 2026-11-11 | Public SOTA pipeline, main engine replaced by own models (G1) | 0.417 |
 | 2026-11-11 | Public SOTA pipeline, own main engine + open fold-safe fingerprint models (G2) | 0.415 |
 | 2026-11-11 | Public SOTA pipeline, all non-reproducible models removed (G3) | 0.409 |
+| 2026-11-12 | Public SOTA pipeline, G3 without the second candidate engine (G5) | 0.353 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
 
