@@ -51,6 +51,7 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | 2026-11-12 | Compliant pipeline + own external spectral libraries (G7) | 0.373 |
 | 2026-11-12 | Compliant pipeline + re-tuned PubChem merge thresholds (G8) | 0.373 |
 | 2026-11-13 | Compliant pipeline + rebuilt Engine-2 ranker rows, class-balanced (G9) | 0.393 |
+| 2026-11-13 | Compliant pipeline + own PubChem-channel fingerprint models (G10) | 0.395 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
 
