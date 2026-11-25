@@ -64,6 +64,7 @@ predict 2D chemical structures (SMILES) from LC-MS/MS spectra, scored by MRR@25.
 | 2026-11-23 | Compliant pipeline + own DreaMS fingerprint models in the second engine (G18) | 0.425 |
 | 2026-11-23 | Compliant pipeline + shipped main-engine models with public training code (G19) | 0.447 |
 | 2026-11-23 | Compliant pipeline + shipped main-engine models with public training code + own DreaMS fingerprint models in the second engine (G20) | 0.430 |
+| 2026-11-25 | Compliant pipeline + shipped main-engine models + shipped second-engine fingerprint models (public training code) with own second-engine ranker rows (D1c) | 0.431 |
 
 Public LB uses ~31% of the hidden test set; final ranking uses the remaining 69%.
 
